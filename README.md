@@ -1,33 +1,28 @@
+## About the Project
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
-        <li><a href="#usage">Usage</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#cucumber-practice">Cucumber Practice</a>
+      <ul>
+        <li><a href="#gherkin-language">Gherkin Language</a></li>
       </ul>
     </li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
-
-## About The Project
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 ### Built With
 
-This project was build with these technologies:
+This project was build with the following technologies:
 
 * [![Cucumber][cucumber]][cucumber-url]
 * [![Node][node]][node-url]
@@ -47,13 +42,33 @@ To execute next steps, you need to ensure npm is installed in your environment.
 npm install npm@latest -g
 ```
 
-
 ### Installation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### Usage
+## Cucumber Practice
+
+### Gherkin Language
+
+```gherkin
+Feature: Description
+As an <actor>
+I want to <do something>
+In order to <achieve some goal>
+
+  Scenario: Description 1
+    Given <a condition>
+      And <another condition>
+    When <actor does something>
+    Then <some output is given>
+  
+  Scenario: Description 2
+    Given <a condition>
+      And <another condition>
+    When <actor does something>
+    Then <some output is given>
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,11 +77,6 @@ npm install npm@latest -g
 To found more information about Cucumber, visit: [cucumber.io/docs](https://cucumber.io/docs).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [cucumber]: https://img.shields.io/badge/Cucumber-43B02A?style=for-the-badge&logo=cucumber&logoColor=white
 [cucumber-url]: https://cucumber.io/
