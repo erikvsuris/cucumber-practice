@@ -24,9 +24,9 @@
 
 This project was build with the following technologies:
 
-* [![Cucumber][cucumber]][cucumber-url]
-* [![Node][node]][node-url]
-* [![NPM][npm]][npm-url]
+[![Cucumber][cucumber]][cucumber-url]
+[![Node][node]][node-url]
+[![NPM][npm]][npm-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -47,7 +47,12 @@ npm install npm@latest -g
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Cucumber Practice
+## Testing Structure
+
+Behavior driven development (BDD) / AAA Standard (Act, Arrange, Assert)
+- Given (Act): condition.
+- When (Arrange): action.
+- Then (Assert): assertion.
 
 ### Gherkin Language
 
